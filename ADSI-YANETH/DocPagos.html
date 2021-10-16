@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/Master.css">
+    <script src="js/funciones.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Documentos de Pago</title>
+    <style>
+        div.center button{
+            margin: 5px;
+            background-color: #ff6600;
+        }
+        div.center button a{
+            color: white;
+        }
+        div.center button:hover{
+            background-color: #ff660060;
+        }
+        div.row{  
+            justify-content: center;
+            margin: 40px auto;
+            background-color:rgb(255, 255, 255);
+            border: 3px solid #ff6600;
+            height: 350px;
+            width: 700px;
+            list-style: none;
+            padding: 3%;
+            color: #ff6600;
+        }
+        div.row div button.btn-small{
+            margin: 5px;
+            background-color: #ff6600;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <img src="imgs/LogoSena2.png">
+            <a href="HomePage.html" class="brand-logo center">Cargar Documentos</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><i class="material-icons prefix">assignment_ind</i></li>
+                <li><a href="Estado.html">Consultar Estado</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="center">
+        <button class="waves-effect waves-light btn-large" type="check" name="action">
+            <a href="PrimerPago.html">PRIMER PAGO</a>
+        </button>
+        <button class="waves-effect waves-light btn-large" type="check" name="action1">
+            <a href="PagoMensual.html">PAGO MENSUAL</a>
+        </button>
+        <button class="waves-effect waves-light btn-large" type="check" name="action2">
+            <a href="">ULTIMO PAGO</a>
+        </button>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/Master.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="js/funciones.js">
+    <title>Primer Pago</title>
+    <style>
+        div.center button:hover{
+            background-color: #ff660060;
+        }
+        div.row{  
+            justify-content: center;
+            margin: 40px auto;
+            background-color:rgb(255, 255, 255);
+            border: 3px solid #ff6600;
+            height: 350px;
+            width: 700px;
+            list-style: none;
+            padding: 3%;
+            color: #ff6600;
+        }
+        div.row div button.btn-small{
+            margin: 5px;
+            background-color: #ff6600;
+        }
+        div.row button.btn-small a{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <img src="imgs/LogoSena2.png">
+            <a href="DocPagos.html" class="brand-logo center">Primer Pago</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><i class="material-icons prefix">assignment_ind</i></li>
+                <li><a href="Estado.html">Consultar Estado</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col s6">
+            <div class="Profie">
+                <i class="material-icons prefix">account_circle</i>
+                <H6 class="center">Yaneth Mejia</H6>
+            </div>
+        </div>
+        <div class="col s6">
+            <label>Trimestre</label>
+            <select class="browser-default">
+                <option value="" disabled selected>Elije una opción</option>
+                <option value="1">Uno</option>
+                <option value="2">Do</option>
+                <option value="3">Tres</option>
+                <option value="4">Cuatro</option>
+                <option value="5">Cinco</option>
+                <option value="6">Seis</option>
+                <option value="7">Siete</option>
+                <option value="8">Ocho</option>
+                <option value="9">Nueve</option>
+            </select>
+
+            <label>Fase (PHVA)</label>
+            <select class="browser-default">
+                <option value="" disabled selected>Elije una opción</option>
+                <option value="1">Primer Pago</option>
+                <option value="2">Uno</option>
+                <option value="3">Dos</option>
+                <option value="4">Tres</option>
+            </select>
+
+            <label for="userNumPago">Numero de Pago</label>
+            <input type="number" name="userNumPago" id="userNumPago">
+            <br><br>
+            
+            <button class="btn-small right" type="check" name="action">
+                <a href="Fase1.html">
+                    Siguiente
+                    <i class="material-icons right">check</i>
+                </a> 
+            </button>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

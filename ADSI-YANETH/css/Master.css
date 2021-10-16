@@ -1,0 +1,74 @@
+nav div img{
+    margin-left: 20px;
+    width: 80px;
+    height: 70px;
+}
+nav div.nav-wrapper{
+    background-color: #ff6600;
+}
+nav div a{
+    color: black;
+}
+div div.input-field{
+    color: #ff6600;
+}
+div label{
+    color: #ff6600;
+}
+div.button div div button.btn-small{
+    background-color:#ff6600 ;
+}
+div.button div div button.btn-small a{
+    color:white ;
+}
+div.button div div button.btn-small:hover{
+    background-color: #2927279c;
+}
+main section {
+    background-color:rgb(255, 255, 255);
+    border: 3px solid #000000;
+    height: 450px;
+    width: 450px;
+}
+main section {
+    list-style: none;
+    padding: 3%;
+    margin: 30px auto;
+    color: #ff6600;
+}
+main section{
+    color:#ff6600;
+    text-align: center;
+}
+nav div.nav-wrapper ul i{
+    font-size: 4rem;
+    color: black;
+}
+div.Profie i{
+    margin: 40px auto;
+    font-size: 8rem;
+    margin-left:50px;
+}
+div.Profie h6{
+    margin-right:60px;
+}
+
+div.row div div.Documents{
+    margin: 40px auto;
+    background-color:rgb(255, 255, 255);
+    border: 3px solid #ff6600;
+    height: 700px;
+    width: 800px;
+}
+div.row div div.Documents form div button{ 
+    background-color:#ff6600;
+    color: white;
+}
+div.row div div.Documents button,
+div.row div div.Documents button a{ 
+    background-color:#ff6600;
+    color: white;
+}
+div.row div div.Documents button label{
+    color: white;
+}

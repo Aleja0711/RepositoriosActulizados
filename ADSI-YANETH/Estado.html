@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/Master.css">
+    <script src="js/funciones.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Consultar Estado</title>
+    <style>
+        div table{
+            margin: 40px auto;
+            border: 2px solid #ff6600;
+            height: 180px;
+            width: 600px;
+            justify-content: center;
+        }
+        div.center{
+            margin: 40px auto;
+            border: 3px solid #ff6600;
+            height: 400px;
+            width: 800px;
+        }
+        div.center h5{
+            color: #ff6600;
+        }
+        div.center table thead tr th{
+            color: #ff6600;
+        }
+        div.center button{
+            background-color: #ff6600;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <img src="imgs/LogoSena2.png">
+            <a class="brand-logo center">Consultar estado</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><i class="material-icons prefix">assignment_ind</i></li>
+                <li><a href="DocPagos.html">Documentos de Pago</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="center">
+        <h5>HISTORIAL DE DOCUMENTOS DEL PAGO MENSUAL</h5>
+        <table class="centered">
+            <thead>
+                <tr>
+                    <th>Numero de Pago</th>
+                    <th>Estado De Reunion</th>
+                    <th>Opciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>------</td>
+                    <td>------</td>
+                    <td>
+                        <i class="material-icons">search</i>
+                        <i class="material-icons">create</i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>******</td>
+                    <td>******</td>
+                    <td>******</td>
+                </tr>
+                <tr>
+                    <td>++++++</td>
+                    <td>++++++</td>
+                    <td>++++++</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button class="btn-small" type="check" name="action">
+            Realizar
+            <i class="material-icons right">check</i>
+        </button>
+        <button class="btn-small" type="close" name="decline">
+            Cancelar
+            <i class="material-icons right">close</i>
+        </button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

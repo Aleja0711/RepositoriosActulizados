@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/Master.css">
+    <title>Registrarse</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <img src="imgs/LogoSena2.png">
+            <a class="brand-logo center">Formulario De Registro</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><i class="material-icons prefix">assignment_ind</i></li>
+                <li><a href="HomePage.html">ACCEDER</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <div class="container section">
+        <div class="section">
+            <div class="row">
+                <div class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <label for="userFirstName">Nombre</label>
+                    <input type="text" name="userFirstName" id="userFirstName" />
+                </div>
+                <div class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <label for="userLastName">Apellido</label>
+                    <input type="text" name="userLastName" id="userLastName"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s6">
+                    <label>Tipo de documento</label>
+                    <select class="browser-default">
+                        <option value="" disabled selected>Elije una opción</option>
+                        <option value="1">Cedula de Cuidadania C.C.</option>
+                        <option value="2">Cedula de Extranjeria C.E.</option>
+                        <option value="3">Tarjeta de Identidad T.I.</option>
+                        <option value="4">Pasaporte</option>
+                        <option value="5">NUIP</option>
+                        <option value="6">Permiso especial</option>
+                    </select>
+                </div>
+                <div class="input-field col s6">
+                    <i class="material-icons prefix">folder_shared</i>
+                    <label for="user_id">Número de documento</label>
+                    <input type="number" name="user_id" id="user_id">
+                </div>
+            </div>
+
+            <div class="section">
+
+                <div class="row">
+                    <div class="col s6">
+                        <label>Departamento</label>
+                        <select class="browser-default">
+                            <option value="" disabled selected>Elije una opción</option>
+                            <option value="1">Caldas</option>
+                            <option value="2">Risaralda</option>
+                            <option value="3">Valle del Cauca</option>
+                            <option value="4">Quindío</option>
+                            <option value="5">Cundinamarca</option>
+                            <option value="6">Antioquía</option>
+                        </select>
+                    </div>
+                    <div class="col s6">
+                        <label>Municipios</label>
+                        <select class="browser-default">
+                            <option value="" disabled selected>Elije una opción</option>
+                            <option value="1">Manizales</option>
+                            <option value="2">Pereira</option>
+                            <option value="3">Calí</option>
+                            <option value="4">Armenia</option>
+                            <option value="5">Bogotá</option>
+                            <option value="6">Medellín</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="input-field ">
+                    <i class="material-icons prefix">directions_subway</i>
+                    <label for="userAdress">Direccion de Residencia</label>
+                    <input type="number" name="userAdress" id="userAdress">
+                </div>
+
+                <div class="row">
+                    <div class="input-field  col s6">
+                        <i class="material-icons prefix">contact_mail</i>
+                        <label for="user_email">Correo electrónico</label>
+                        <input type="email" name="user_email" id="user_email" class="validate">
+                        <span class="helper-text" data-error="No es un correo válido" data-success="Correo válido"></span>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">phone</i>
+                        <label for="userPhone">Número de Celular</label>
+                        <input type="number" name="userPhone" id="userPhone">
+                    </div> 
+                </div>
+
+                <div class="row">
+                    <div class="col s6">
+                        <label for="userCargo">Cargo </label>
+                        <select class="browser-default">
+                            <option value="" disabled selected>Elije una opción</option>
+                            <option value="1">Instructor</option>
+                            <option value="2">Coordinador</option>
+                            <option value="5">Adminitrativo</option>
+                            <option value="3">Lider Sennova</option>
+                            <option value="4">Ordenador Del Gasto</option>
+                        </select>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">style</i>
+                        <label for="userProfession">Profesion</label>
+                        <input type="text" name="userProfession" id="userProfession"/>
+                    </div>
+                </div>
+                
+                <div class="center Acept">
+                    <p>
+                        <label>
+                          <input type="checkbox"/>
+                          <span>Autorizo el tratamiento de datos por parte del SENA</span>
+                        </label>
+                    </p>
+                </div>
+
+                <div class="button">  
+                    <div class="row">
+                        <div class="center col s12">
+                            <button class="btn-small" type="check" name="action">
+                                Realizar
+                                <i class="material-icons right">check</i>
+                            </button>
+                            <button class="btn-small" type="close" name="decline">
+                                Cancelar
+                                <i class="material-icons right">close</i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

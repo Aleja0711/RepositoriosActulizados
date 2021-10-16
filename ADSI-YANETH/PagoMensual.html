@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/Master.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Pago Mensual</title>
+    <style>
+        div.row div div.Documents{  
+            justify-content: center;
+            margin: 40px auto;
+            background-color:rgb(255, 255, 255);
+            border: 3px solid #ff6600;
+            height: 730px;
+            width: 900px;
+            list-style: none;
+            padding: 3%;
+            color: #ff6600;
+        }
+        div.row div button.btn-small{
+            margin: 5px;
+            background-color: #ff6600;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <img src="imgs/LogoSena2.png">
+            <a href="DocPagos.html" class="brand-logo center">Pago Mensual</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><i class="material-icons prefix">assignment_ind</i></li>
+                <li><a href="Estado.html">Consultar Estado</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col s12">
+            <div class="Documents">
+                <h6>Cargar Documentos Solicitados</h6>
+                <li class="divider" tabindex="-1"></li>
+                <br>
+                <button class="btn-small" type="check" name="action">
+                    <label>Factura de Venta</label>
+                    <i class="material-icons left">file_upload</i>
+                    <input type="file">
+                </button>
+                <br><br>
+                <button class="btn-small" type="check" name="action">
+                    <label>Planilla para pago de contratos</label>
+                    <i class="material-icons left">file_upload</i>
+                    <input type="file">
+                </button>
+                <br><br>
+                <button class="btn-small" type="check" name="action">
+                    <label>Certificación de la cuenta AFC/AVC</label>
+                    <i class="material-icons left">file_upload</i>
+                    <input type="file">
+                </button>
+                <br><br>
+                <button class="btn-small" type="check" name="action">
+                    <label>Certificado de aportes voluntarios a fondos de pensiones</label>
+                    <i class="material-icons left">file_upload</i>
+                    <input type="file">
+                </button>
+                <br><br>
+                <button class="btn-small" type="check" name="action">
+                    <label>Certifcado contratos de prestaciones</label>
+                    <i class="material-icons left">file_upload</i>
+                    <input type="file">
+                </button>
+                <br><br>
+                <button class="btn-small" type="check" name="action">
+                    <label>Certifcado original y copia de soportes</label>
+                    <i class="material-icons left">file_upload</i>
+                    <input type="file">
+                </button>
+                <br><br>
+                <button class="btn-small" type="check" name="action">
+                    <label>Legalización de gastos de viaje</label>
+                    <i class="material-icons left">file_upload</i>
+                    <input type="file">
+                </button>
+                <br><br>
+                <button class="btn-small" type="check" name="action">
+                    <label>Certificado de intereses de vivienda</label>
+                    <i class="material-icons left">file_upload</i>
+                    <input type="file">
+                </button>
+                <br><br>
+                <button class="btn-small right" type="check" name="action">
+                       Finalizar <i class="material-icons right">check</i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

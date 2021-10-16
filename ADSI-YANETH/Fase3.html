@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/Master.css">
+    <script src="js/funciones.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Fase 3</title>
+    <style>
+        div.row div{
+            list-style: none;
+            padding: 3%; 
+            color: #ff6600;
+        }
+        div.row div div.Documents{
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <img src="imgs/LogoSena2.png">
+            <a href="DocPagos.html" class="brand-logo center">Fase 3</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><i class="material-icons prefix">assignment_ind</i></li>
+                <li><a href="Estado.html">Consultar Estado</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="row">
+        <div class="col s12">
+            <div class="Documents">
+                <h6>Cargar Documentos Solicitados</h6>
+                <li class="divider" tabindex="-1"></li>
+                <br>
+                <button class="btn-small" type="check" name="action">
+                    <label>Informe Mensual de Actividades</label>
+                    <i class="material-icons left">file_download</i>
+                    <i class="material-icons left">file_upload</i>
+                    <input type="file">
+                </button>
+                <br><br>
+                <button class="btn-small" type="check" name="action">
+                    <label>Evidencias Mensuales</label>
+                    <i class="material-icons left">search</i>
+                    <input type="file">
+                </button>
+                <br><br>
+                
+                <div class="right">
+                    <button class="btn-small" type="check" name="action">
+                        Aceptar y Enviar<i class="material-icons right">check</i>
+                    </button>
+                    <button class="btn-small" type="check" name="action">
+                        Cancelar<i class="material-icons right">close</i>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

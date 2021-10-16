@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/Master.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Home Page</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <img src="imgs/LogoSena2.png">
+            <a class="brand-logo center">Pago de Nomina</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><i class="material-icons prefix">assignment_ind</i></li>
+                <li><a href="Registro.html">REGISTRARSE</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <main>
+        <section>
+            <h3>Ingresar</h3>
+            <br>
+            <div class="input-field  col s6">
+                <i class="material-icons prefix">contact_mail</i>
+                <label for="user_email">Correo electrónico</label>
+                <input type="email" name="user_email" id="user_email" class="validate">
+                <span class="helper-text" data-error="No es un correo válido" data-success="Correo válido"></span>
+           </div>
+            <div class="input-field col s6">
+                <i class="material-icons prefix">https</i>
+                <input id="password" type="password" class="validate">
+                <label for="password">Contraseña</label>
+            </div>
+            <br>
+            <br>
+            <div class="button">  
+                <div class="row">
+                    <div class="center col s12">
+                        <button class="btn-small" type="check" name="action">
+                            <a href="DocPagos.html">Ingresar<i class="material-icons right">check</i></a>
+                        </button>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
